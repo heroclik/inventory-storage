@@ -36,7 +36,7 @@ npm run dev
 ## Built With
 
 * [Node.js](https://nodejs.org/en/docs) - Backend
-* [Mongodb](https://www.mongodb.com) - Cloud-Native Document Database
+
 
 ## Authors
 

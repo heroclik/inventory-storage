@@ -35,7 +35,7 @@ npm run dev
 
 ## Built With
 
-* [Node.js](https://nodejs.org/en/docs) - Backend test
+* [Node.js](https://nodejs.org/en/docs) - Backend
 
 
 ## Authors

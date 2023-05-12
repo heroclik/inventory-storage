@@ -13,6 +13,7 @@ Clone the project
 ```
 git clone https://github.com/heroclik/inventory-storage.git
 ```
+
 Go to the project directory
 
 ```
@@ -30,17 +31,17 @@ Start the backend server
 
 ```
 cd backend
-npm run dev
+npm run server.js
 ```
 
 ## Built With
 
-* [Node.js](https://nodejs.org/en/docs) - Backend
-
+- [Node.js](https://nodejs.org/en/docs) - Backend
+- [Express](https://expressjs.com/) - Node.js web application framework
 
 ## Authors
 
-* **Theeraporn Pormsorn** - *Initial work* - [heroclik](https://github.com/heroclik)
-* **Suchada Tammajong** - *Initial work* - [Suchada Tammajong   ](https://github.com/suchadatammajong)
-* **Jatuchok Chuma** - *Initial work* - [Jatuchok](https://github.com/Jatuchok)
-
+- **Theeraporn Pormsorn** - _Initial work_ - [heroclik](https://github.com/heroclik)
+- **Suchada Tammajong** - _Initial work_ - [Suchada Tammajong ](https://github.com/suchadatammajong)
+- **Jatuchok Chuma** - _Initial work_ - [Jatuchok](https://github.com/Jatuchok)
+- **Wisit Moondet** - _Initial work_ - [Wisit](https://github.com/Wisitt)

@@ -4,6 +4,7 @@ const { Sequelize } = require('sequelize');
 const sequelize = new Sequelize('inventory', 'root', '1234', {
   host: 'localhost',
   dialect: 'mysql',
+  timezone: '+07:00'
 });
 
 // Test the database connection

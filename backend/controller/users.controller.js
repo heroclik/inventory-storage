@@ -21,7 +21,7 @@ async function getUserById(req, res) {
 async function updateUser(req, res) {
   try {
     const { userId } = req.params;
-    const { name, email } = req.body;
+    const { name, username } = req.body;
 
     const user = await User.findByPk(userId);
     if (!user) {
@@ -29,7 +29,7 @@ async function updateUser(req, res) {
     }
 
     user.name = name || user.name;
-    user.email = email || user.email;
+    user.username = username || user.username;
 
     await user.save();
 

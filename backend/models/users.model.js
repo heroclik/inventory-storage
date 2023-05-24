@@ -20,6 +20,10 @@ const User = sequelize.define('users', {
     type: DataTypes.STRING,
     allowNull: false,
   },
+  role: {
+    type: DataTypes.STRING,
+    allowNull: false,
+  }
 });
 
 User.sync();

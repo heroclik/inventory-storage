@@ -6,7 +6,7 @@ const { jwtSecret } = require('../configs/jwt.js');
 // Register a new user
 async function register(req, res) {
   try {
-    const { name, username, password } = req.body;
+    const { name, username, password, role } = req.body;
 
     // Check if the user already exists
     const existingUser = await User.findOne({ where: { username } });
@@ -22,6 +22,7 @@ async function register(req, res) {
       name,
       username,
       password: hashedPassword,
+      role,
     });
 
     return res.status(201).json({ message: 'User registered successfully', user: newUser });

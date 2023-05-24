@@ -14,8 +14,16 @@ function authenticateToken(req, res, next) {
       return res.status(401).json({ message: 'Invalid token',token});
     }
 
-    req.userId = decoded.userId;
-    next();
+    if (decoded.role == 3){
+      req.userId = decoded.userId;
+      next();
+    }
+    else {
+      console.log(decoded.role);
+      return res.status(403).json({ message: 'Access denied ',token});
+      
+    }
+    
   });
 }
 

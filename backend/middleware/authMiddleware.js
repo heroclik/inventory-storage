@@ -19,7 +19,7 @@ function authenticateToken(req, res, next) {
       next();
     }
     else {
-      console.log(decoded.role);
+      // console.log(decoded.role);
       return res.status(403).json({ message: 'Access denied ',token});
       
     }
